@@ -20,8 +20,8 @@ my_timezone = pytz.timezone('Asia/Irkutsk')
 bot = telebot.TeleBot(token)
 
 # Переменные с айди администраторов и чата
-ADM = 1746611992 # для /s
-chat_id = -1001969947381 # для /s
+ADM = yourIDadm # для /s
+chat_id = yourchat_id # для /s
 CONSOLE = -1002098012390
 
 
