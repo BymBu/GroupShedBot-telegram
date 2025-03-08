@@ -80,22 +80,22 @@ This Telegram bot is designed to manage class schedules, substitutions, and othe
 ### Main Commands:
 
 #### User Commands (plain text):
-- **Schedule** — Shows the schedule for the current and next day.
-- **Weekly Schedule** — Shows the schedule for the entire week.
-- **Status** — Displays your subscription status.
-- **Statistics** — Shows interesting statistics.
-- **Random** — Sends a random sound as a voice message.
-- **Bot** — Checks the bot's activity.
+- **Расписание** — Shows the schedule for the current and next day.
+- **Расписание недели** — Shows the schedule for the entire week.
+- **Статус** — Displays your subscription status.
+- **Статистика** — Shows interesting statistics.
+- **Рандом** — Sends a random sound as a voice message.
+- **Бот** — Checks the bot's activity.
 
 #### Technical Commands (admin-only, via `/`):
-- **/schedule** — Configure the schedule (add, remove, or modify a class).
-- **/substitutions** — A mini-field for entering substitutions (if any).
+- **/расписание** — Configure the schedule (add, remove, or modify a class).
+- **/замены** — A mini-field for entering substitutions (if any).
 - **/clear** — Clears the cooldown for all commands.
 - **/addadmin id (name comment)** — Adds an admin. Example: `/addadmin 1111 Slava 2IS23a`.
 - **/removeadmin id** — Removes an admin.
 - **/chatid** — Displays the chat ID.
 - **/id** (reply to a user's message) — Displays the user's ID.
-- **Start (chat_id)** — Activates a 1-month subscription for the bot in the specified chat (admin-only).
+- **Старт (chat_id)** — Activates a 1-month subscription for the bot in the specified chat (admin-only).
 
 ---
 
