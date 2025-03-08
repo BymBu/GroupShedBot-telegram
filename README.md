@@ -64,6 +64,11 @@ Run the bot:
 
 ---
 
+## Лицензия
+
+Лицензию для этого проекта можно найти в файле [LICENSE](LICENSE) в корне этого репозитория.
+---
+
 ## Bot Description
 
 This Telegram bot is designed to manage class schedules, substitutions, and other academic events. The bot supports commands for both users and administrators, allowing you to view schedules, configure them, and perform additional functions such as checking subscription status, viewing statistics, and playing random sounds.
@@ -122,3 +127,10 @@ Run the bot:
 1. Clone the repository:
    ```bash
    git clone https://github.com/BymBu/GroupShedBot-telegram.git
+
+---
+## License
+
+The license for this project can be found in the [LICENSE](LICENSE) file in the root of this repository.
+
+---
