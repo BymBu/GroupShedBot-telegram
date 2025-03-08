@@ -52,3 +52,73 @@
 1. Клонируйте репозиторий:
    ```bash
    git clone https://github.com/BymBu/GroupShedBot-telegram.git
+
+Install dependencies:
+
+1. pip install -r requirements.txt
+
+Run the bot:
+1. python bot.py
+
+# Telegram Schedule Bot
+
+---
+
+## Bot Description
+
+This Telegram bot is designed to manage class schedules, substitutions, and other academic events. The bot supports commands for both users and administrators, allowing you to view schedules, configure them, and perform additional functions such as checking subscription status, viewing statistics, and playing random sounds.
+
+---
+
+## Commands
+
+### Main Commands:
+
+#### User Commands (plain text):
+- **Schedule** — Shows the schedule for the current and next day.
+- **Weekly Schedule** — Shows the schedule for the entire week.
+- **Status** — Displays your subscription status.
+- **Statistics** — Shows interesting statistics.
+- **Random** — Sends a random sound as a voice message.
+- **Bot** — Checks the bot's activity.
+
+#### Technical Commands (admin-only, via `/`):
+- **/schedule** — Configure the schedule (add, remove, or modify a class).
+- **/substitutions** — A mini-field for entering substitutions (if any).
+- **/clear** — Clears the cooldown for all commands.
+- **/addadmin id (name comment)** — Adds an admin. Example: `/addadmin 1111 Slava 2IS23a`.
+- **/removeadmin id** — Removes an admin.
+- **/chatid** — Displays the chat ID.
+- **/id** (reply to a user's message) — Displays the user's ID.
+- **Start (chat_id)** — Activates a 1-month subscription for the bot in the specified chat (admin-only).
+
+---
+
+## Important Notes
+
+- **Drawback:** When configuring the schedule, the bot accepts any messages (even random ones like "hello everyone"). Please be patient and ask everyone in the chat to remain silent during the setup process.
+- **Subscription:** Some features are only available with an active subscription. Check your subscription status using the **Status** command.
+
+---
+
+## How to Use
+
+1. Add the bot to your chat.
+2. Use the commands to manage the schedule and other functions.
+3. For administration, use the technical commands available only to admins.
+
+---
+
+
+Install dependencies:
+
+1. pip install -r requirements.txt
+
+Run the bot:
+1. python bot.py
+
+## Installation and Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/BymBu/GroupShedBot-telegram.git
