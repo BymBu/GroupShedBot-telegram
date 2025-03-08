@@ -53,13 +53,14 @@
    ```bash
    git clone https://github.com/BymBu/GroupShedBot-telegram.git
 
-Install dependencies:
-
+2. Установка зависимостей:
+```
 1. pip install -r requirements.txt
-
-Run the bot:
+```
+3. Запуск бота:
+```
 1. python bot.py
-
+```
 # Telegram Schedule Bot
 
 ---
@@ -115,19 +116,21 @@ This Telegram bot is designed to manage class schedules, substitutions, and othe
 ---
 
 
-Install dependencies:
 
-1. pip install -r requirements.txt
-
-Run the bot:
-1. python bot.py
 
 ## Installation and Setup
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/BymBu/GroupShedBot-telegram.git
-
+Install dependencies:
+```
+2. pip install -r requirements.txt
+```
+Run the bot:
+```
+3. python bot.py
+```
 ---
 ## License
 
