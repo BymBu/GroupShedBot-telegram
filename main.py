@@ -13,7 +13,7 @@ import pytz
 
 
 
-token='6596557851:AAFYRruSIZXjTOIUT36S_m4BAqRM-kc9yH0'
+token='YOUR TOKEN'
 my_timezone = pytz.timezone('Asia/Irkutsk')
 
 
